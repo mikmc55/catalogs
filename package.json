@@ -1,0 +1,28 @@
+{
+  "name": "stremio-custom-addon",
+  "version": "1.2.0",
+  "description": "Stremio Add-on to showcase custom movies based on TMDB with configurable filters",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "stremio",
+    "addon",
+    "movies",
+    "tmdb",
+    "custom"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "stremio-addon-sdk": "^1.6.10",
+    "axios": "^0.27.2",
+    "winston": "^3.8.2",
+    "node-schedule": "^2.1.0",
+    "dotenv": "^16.0.3"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
